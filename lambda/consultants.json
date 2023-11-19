@@ -14,6 +14,19 @@
     },
     {
         "codpais": "PE",
+        "codebelista": "12345",
+        "desnombre": "Luisa",
+        "desapepaterno": "González",
+        "docidentidad": "78901234",
+        "tipodocidentidad": "2",
+        "desestadocivil": "Soltero(a)",
+        "desdireccion": "AV. PRINCIPAL 123",
+        "aniocampanaingreso": "202302",
+        "fechanacimiento": "1988-03-15 00:00:00.000",
+        "fecharegistro": "2023-07-15 09:21:34.567"
+    },
+    {
+        "codpais": "PE",
         "codebelista": "12345-678",
         "desnombre": "Luisa",
         "desapepaterno": "González",
