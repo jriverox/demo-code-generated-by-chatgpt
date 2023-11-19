@@ -1,0 +1,23 @@
+service: consultant-service
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  profile: belcorp-arch
+  region: us-east-1
+
+functions:
+  getConsultant:
+    handler: lambda/handler.getConsultant
+    events:
+      - http:
+          path: consultoras/{codpais}/{codebelista}
+          method: get
+          cors: true
+
+# Incluye el IAM role necesario para leer desde S3
+# iamRoleStatements:
+#   - Effect: "Allow"
+#     Action:
+#       - s3:GetObject
+#     Resource: "arn:aws:s3:::nombre-de-tu-bucket/*"

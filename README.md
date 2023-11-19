@@ -1,4 +1,2 @@
-# demo-code-generated-by-chatgpt
-# demo-code-generated-by-chatgpt
-# demo-code-generated-by-chatgpt
-# demo-code-generated-by-chatgpt
+# Prueba
+serverless invoke local --function getConsultant --path event-mock.json
